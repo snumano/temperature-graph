@@ -5,7 +5,7 @@ use Web::Scraper;
 use URI;
 
 if(!$ARGV[0] && !$ARGV[0]){
-    die("Usage\:weather.pl <year> <month>\n");
+    die("Usage\:gen_temp_url.pl <year> <month>\n");
 }
 
 my $month = $ARGV[1];
